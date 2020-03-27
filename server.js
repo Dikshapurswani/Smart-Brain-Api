@@ -27,7 +27,7 @@ app.use(cors());
 const saltRounds = 10;
 
 app.get("/", (req, res) => {
-  res.json(database.users);
+  res.json("Its working...");
 });
 
 app.post("/signin", (req, res) => {
